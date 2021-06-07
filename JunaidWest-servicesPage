@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+section{
+  background-color: #f0f0f0;
+  display: flex;
+  height: 60vh;
+  padding: 25px;
+}
+
+.block {
+  height: 40vh;
+  width: 20%;
+  background-color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 35px;
+  border-radius: 5px;
+}
+</style>
+</head>
+<body>
+<section> 
+<div class="block">
+<i class="material-icons" style="font-size:48px;color:#77dd77">favorite</i>
+<h2>90 Days Return</h2>
+<p>Lorem ipsum dolor sit amet consectetur elit</p>
+</div>
+
+<div class="block">
+<i class="material-icons" style="font-size:48px;color:#77dd77">computer</i>
+<h2>24/7 Support</h2>
+<p>Lorem ipsum dolor sit amet consectetur elit</p>
+</div>
+
+<div class="block">
+<i class="fa fa-cc-mastercard" style="font-size:48px;color:#77dd77"></i>
+<h2>Secure Payment</h2>
+<p>Lorem ipsum dolor sit amet consectetur elit</p>
+</div>
+
+<div class="block">
+<i class="fa fa-truck" style="font-size:48px;color:#77dd77"></i>
+<h2>Delivery</h2>
+<p>Lorem ipsum dolor sit amet consectetur elit</p>
+</div>
+
+</section>
+</body>
+</html>
+
